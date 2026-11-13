@@ -8,13 +8,13 @@ A computational revenue engine for n8n. When a HubSpot deal reaches **Closed-Won
 
 Any calculation or sync failure goes to an error branch. That branch **redacts PII, bearer tokens and sensitive headers** before anything is logged or sent to the alert webhook.
 
+![CI](https://github.com/dhrobinsystems/n8n-hubspot-custom-code-action-error-handler/actions/workflows/ci.yml/badge.svg)
+![Node](https://img.shields.io/badge/node-%3E%3D20-339933)
+![Dependencies](https://img.shields.io/badge/npm%20dependencies-0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 > Built by DH Robin (dhRobin Systems), https://dhrobinsystems.com. MIT licensed. Ships with `SANDBOX_MODE=true` and synthetic data only.
 
-## CI, Dependencies & License
-
-* **CI Pipeline:** Automated via GitHub Actions (`.github/workflows/`) for syntax, dry-run validation, and build checks.
-* **Dependencies:** Node.js runtime environment with standard package management (`package.json`).
-* **License:** Distributed under the [MIT License](LICENSE).
 ---
 
 ## Contents
