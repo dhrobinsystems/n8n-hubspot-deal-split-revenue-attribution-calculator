@@ -10,6 +10,11 @@ Any calculation or sync failure goes to an error branch. That branch **redacts P
 
 > Built by DH Robin (dhRobin Systems), https://dhrobinsystems.com. MIT licensed. Ships with `SANDBOX_MODE=true` and synthetic data only.
 
+## CI, Dependencies & License
+
+* **CI Pipeline:** Automated via GitHub Actions (`.github/workflows/`) for syntax, dry-run validation, and build checks.
+* **Dependencies:** Node.js runtime environment with standard package management (`package.json`).
+* **License:** Distributed under the [MIT License](LICENSE).
 ---
 
 ## Contents
