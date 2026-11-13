@@ -1,0 +1,52 @@
+{
+  "_comment": "Synthetic GET /crm/v4/objects/deals/{id}/associations/companies responses keyed by deal ID.",
+  "associations": {
+    "1001": {
+      "results": [
+        {
+          "toObjectId": 7001,
+          "associationTypes": [
+            {
+              "category": "HUBSPOT_DEFINED",
+              "typeId": 5,
+              "label": null
+            },
+            {
+              "category": "USER_DEFINED",
+              "typeId": 42,
+              "label": "Referral Partner"
+            }
+          ]
+        },
+        {
+          "toObjectId": 7002,
+          "associationTypes": [
+            {
+              "category": "HUBSPOT_DEFINED",
+              "typeId": 5,
+              "label": null
+            }
+          ]
+        }
+      ]
+    },
+    "1002": {
+      "results": []
+    },
+    "1003": {
+      "results": []
+    },
+    "1005": {
+      "results": []
+    },
+    "1006": {
+      "results": []
+    },
+    "1007": {
+      "error": {
+        "message": "Request failed with status code 404",
+        "httpCode": "404"
+      }
+    }
+  }
+}

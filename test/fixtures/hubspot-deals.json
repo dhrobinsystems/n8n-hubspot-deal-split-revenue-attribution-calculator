@@ -1,0 +1,99 @@
+{
+  "_comment": "Synthetic GET /crm/v3/objects/deals/{id} responses keyed by deal ID.",
+  "deals": {
+    "1001": {
+      "id": "1001",
+      "properties": {
+        "hs_object_id": "1001",
+        "dealname": "Synthetic Deal 1001",
+        "dealstage": "closedwon",
+        "pipeline": "default",
+        "closedate": "2026-05-29T12:00:00.000Z",
+        "hubspot_owner_id": "901",
+        "amount": "120000.00",
+        "deal_currency_code": "USD",
+        "split_1_owner_id": "901",
+        "split_1_percent": "50",
+        "split_1_role": "AE",
+        "split_2_owner_id": "902",
+        "split_2_percent": "30",
+        "split_2_role": "SDR",
+        "split_3_owner_id": "903",
+        "split_3_percent": "20",
+        "split_3_role": "SE"
+      },
+      "archived": false
+    },
+    "1002": {
+      "id": "1002",
+      "properties": {
+        "hs_object_id": "1002",
+        "dealname": "Synthetic Deal 1002",
+        "dealstage": "closedwon",
+        "pipeline": "default",
+        "closedate": "2026-05-29T12:00:00.000Z",
+        "hubspot_owner_id": "904",
+        "amount": "45000",
+        "deal_currency_code": "EUR"
+      },
+      "archived": false
+    },
+    "1003": {
+      "id": "1003",
+      "properties": {
+        "hs_object_id": "1003",
+        "dealname": "Synthetic Deal 1003",
+        "dealstage": "closedwon",
+        "pipeline": "default",
+        "closedate": "2026-05-29T12:00:00.000Z",
+        "hubspot_owner_id": "901",
+        "amount": "10000",
+        "deal_currency_code": "USD",
+        "split_1_owner_id": "901",
+        "split_1_percent": "60",
+        "split_2_owner_id": "902",
+        "split_2_percent": "30"
+      },
+      "archived": false
+    },
+    "1005": {
+      "id": "1005",
+      "properties": {
+        "hs_object_id": "1005",
+        "dealname": "Synthetic Deal 1005",
+        "dealstage": "closedwon",
+        "pipeline": "default",
+        "closedate": "2026-05-29T12:00:00.000Z",
+        "hubspot_owner_id": "901",
+        "deal_currency_code": "USD"
+      },
+      "archived": false
+    },
+    "1006": {
+      "id": "1006",
+      "properties": {
+        "hs_object_id": "1006",
+        "dealname": "Synthetic Deal 1006",
+        "dealstage": "closedwon",
+        "pipeline": "default",
+        "closedate": "2026-05-29T12:00:00.000Z",
+        "hubspot_owner_id": "901",
+        "amount": "1000000",
+        "deal_currency_code": "JPY",
+        "split_1_owner_id": "905",
+        "split_1_percent": "33.33",
+        "split_1_role": "AE",
+        "split_2_owner_id": "906",
+        "split_2_percent": "66.67",
+        "split_2_role": "AE"
+      },
+      "archived": false
+    },
+    "1007": {
+      "error": {
+        "message": "Request failed with status code 404",
+        "httpCode": "404"
+      }
+    }
+  }
+}

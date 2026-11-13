@@ -1,0 +1,93 @@
+{
+  "_comment": "Synthetic HubSpot Trigger output (deal.propertyChange on dealstage). IDs are fictitious.",
+  "events": [
+    {
+      "eventId": 9001001,
+      "subscriptionType": "deal.propertyChange",
+      "portalId": "REPLACE_WITH_HUBSPOT_PORTAL_ID",
+      "occurredAt": 1780300800000,
+      "propertyName": "dealstage",
+      "propertyValue": "closedwon",
+      "objectId": 1001,
+      "attemptNumber": 0,
+      "changeSource": "CRM_UI"
+    },
+    {
+      "eventId": 9001002,
+      "subscriptionType": "deal.propertyChange",
+      "portalId": "REPLACE_WITH_HUBSPOT_PORTAL_ID",
+      "occurredAt": 1780300800000,
+      "propertyName": "dealstage",
+      "propertyValue": "closedwon",
+      "objectId": 1002,
+      "attemptNumber": 0,
+      "changeSource": "CRM_UI"
+    },
+    {
+      "eventId": 9001003,
+      "subscriptionType": "deal.propertyChange",
+      "portalId": "REPLACE_WITH_HUBSPOT_PORTAL_ID",
+      "occurredAt": 1780300800000,
+      "propertyName": "dealstage",
+      "propertyValue": "closedwon",
+      "objectId": 1003,
+      "attemptNumber": 0,
+      "changeSource": "CRM_UI"
+    },
+    {
+      "eventId": 9001005,
+      "subscriptionType": "deal.propertyChange",
+      "portalId": "REPLACE_WITH_HUBSPOT_PORTAL_ID",
+      "occurredAt": 1780300800000,
+      "propertyName": "dealstage",
+      "propertyValue": "closedwon",
+      "objectId": 1005,
+      "attemptNumber": 0,
+      "changeSource": "CRM_UI"
+    },
+    {
+      "eventId": 9001006,
+      "subscriptionType": "deal.propertyChange",
+      "portalId": "REPLACE_WITH_HUBSPOT_PORTAL_ID",
+      "occurredAt": 1780300800000,
+      "propertyName": "dealstage",
+      "propertyValue": "closedwon",
+      "objectId": 1006,
+      "attemptNumber": 0,
+      "changeSource": "CRM_UI"
+    },
+    {
+      "eventId": 9001007,
+      "subscriptionType": "deal.propertyChange",
+      "portalId": "REPLACE_WITH_HUBSPOT_PORTAL_ID",
+      "occurredAt": 1780300800000,
+      "propertyName": "dealstage",
+      "propertyValue": "closedwon",
+      "objectId": 1007,
+      "attemptNumber": 0,
+      "changeSource": "CRM_UI"
+    },
+    {
+      "eventId": 9001001,
+      "subscriptionType": "deal.propertyChange",
+      "portalId": "REPLACE_WITH_HUBSPOT_PORTAL_ID",
+      "occurredAt": 1780300800000,
+      "propertyName": "dealstage",
+      "propertyValue": "closedwon",
+      "objectId": 1001,
+      "attemptNumber": 0,
+      "changeSource": "CRM_UI"
+    },
+    {
+      "eventId": 9001008,
+      "subscriptionType": "deal.propertyChange",
+      "portalId": "REPLACE_WITH_HUBSPOT_PORTAL_ID",
+      "occurredAt": 1780300800000,
+      "propertyName": "dealstage",
+      "propertyValue": "contractsent",
+      "objectId": 1008,
+      "attemptNumber": 0,
+      "changeSource": "CRM_UI"
+    }
+  ]
+}
