@@ -29,6 +29,8 @@ Any calculation or sync failure goes to an error branch. That branch **redacts P
 
 ## Architecture
 
+![n8n Workflow Overview](assets/n8n-workflow-overview.png)
+
 ```
  HubSpot developer app                     HubSpot workflow ("Send a webhook")
  deal.propertyChange (dealstage)           POST + x-split-secret header
