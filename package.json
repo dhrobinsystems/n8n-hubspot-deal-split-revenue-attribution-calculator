@@ -1,0 +1,32 @@
+{
+  "name": "n8n-hubspot-deal-split-revenue-attribution-calculator",
+  "version": "1.0.0",
+  "description": "n8n revenue engine that calculates weighted credit and commission splits across reps and partner channels when a HubSpot deal reaches Closed-Won, and syncs exact breakdowns to HubSpot, Google Sheets and an analytics database.",
+  "private": true,
+  "license": "MIT",
+  "author": "DH Robin (dhRobin Systems) (https://dhrobinsystems.com)",
+  "main": "calculator.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build-workflow.js",
+    "build:check": "node scripts/build-workflow.js --check",
+    "lint": "node --check calculator.js && node --check scripts/build-workflow.js && node --check test/calculator.test.js && node --check test/workflow.test.js && node -e \"JSON.parse(require('fs').readFileSync('workflow.json','utf8'))\"",
+    "test": "node --test test/calculator.test.js test/workflow.test.js",
+    "test:security": "node --test --test-name-pattern=security test/workflow.test.js",
+    "test:coverage": "node --test --experimental-test-coverage test/calculator.test.js test/workflow.test.js",
+    "ci": "npm run lint && npm run build:check && npm test"
+  },
+  "keywords": [
+    "n8n",
+    "hubspot",
+    "deal-splits",
+    "commission",
+    "revenue-attribution",
+    "google-sheets",
+    "revops"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

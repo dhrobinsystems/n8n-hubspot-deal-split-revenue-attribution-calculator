@@ -1,0 +1,27 @@
+# Secrets — never commit filled-in environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# Dependencies and tooling
+node_modules/
+coverage/
+.nyc_output/
+*.log
+npm-debug.log*
+
+# n8n local data and exports that may contain live credentials or execution data
+.n8n/
+n8n-data/
+exports/
+executions/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
