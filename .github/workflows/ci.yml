@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 22]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      # Zero runtime dependencies: lint, verify workflow.json matches the build, run all tests.
+      - run: npm run lint
+      - run: npm run build:check
+      - run: npm test
+      - name: Security scan (no live secrets, webhook URLs or real emails)
+        run: npm run test:security
